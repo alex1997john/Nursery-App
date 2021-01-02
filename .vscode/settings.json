@@ -1,0 +1,51 @@
+{
+  "python.pythonPath": "C:\\Users\\nidhi\\.virtualenvs\\one-click-9RifaK7n\\Scripts\\python.exe",
+  "python.linting.pylintEnabled": true,
+  "python.linting.enabled": true,
+  "python.linting.pylamaEnabled": false,
+  "python.linting.mypyEnabled": false,
+  "python.venvPath": "C:\\Users\\nidhi\\AppData\\Local\\one-click-9RifaK7n\\Cache\\virtualenvs",
+  "python.autoComplete.extraPaths": [
+    "./"
+  ],
+  "python.analysis.extraPaths": [
+    "./"
+  ],
+  "python.linting.pylintArgs": [
+    "--load-plugins=pylint_django",
+  ],
+  "files.associations": {
+    "**/*.html": "html",
+    "*.html": "html",
+    "**/templates/**/*.html": "django-html",
+    "**/templates/**/*": "django-txt",
+    "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+  },
+  "emmet.includeLanguages": {
+    "django-html": "html"
+  },
+  "[django-html]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "beautify.language": {
+    "js": {
+      "type": [
+        "javascript",
+        "json"
+      ],
+      "filename": [
+        ".jshintrc",
+        ".jsbeautifyrc"
+      ]
+    },
+    "css": [
+      "css",
+      "scss"
+    ],
+    "html": [
+      "htm",
+      "html",
+      "django-html"
+    ]
+  },
+}
